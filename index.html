@@ -101,6 +101,42 @@
       text-decoration: none;
       padding: 12px 24px;
     }
+
+    .services {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 48px 300px;
+      gap: 64px;
+    }
+
+    .services-image img {
+      width: 100%;
+    }
+
+    .services-content {
+      color: #00625b;
+    }
+    .services-content em { 
+      text-decoration: underline;
+    }
+    .services-content p {
+      color: #000
+    }
+
+    h3 {
+      font-size: 24pt;
+      line-height: 1.5;
+      margin: 0;
+    }
+
+    ul { 
+      list-style-type: disc;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      line-height: 2;
+      list-style-type: none;
+      list-style-image: url("checkmark.png");
+    } 
   </style>
 </head>
 <body>
@@ -131,6 +167,25 @@
     </div>
     <div class="hero-image">
       <img src="./hero-1.png" alt="hero" />
+    </div>
+  </div>
+
+  <div class="services">
+    <div class="services-image">
+      <img src="./agency.jpg" alt="services" />
+    </div>
+    <div class="services-content">
+      <em>Services</em>
+      <h3>Building a Product With Better Experience</h3>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est deserunt eum vitae, dignissimos vero nemo odit beatae numquam quo, illum maxime et nulla aspernatur cum.</p>
+      <ul>
+        <li>Item 1</li>
+        <li>Item 1</li>
+        <li>Item 1</li>
+        <li>Item 1</li>
+        <li>Item 1</li>
+        <li>Item 1</li>
+      </ul>
     </div>
   </div>
 </body>
