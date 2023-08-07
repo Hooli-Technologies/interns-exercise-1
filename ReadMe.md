@@ -1,5 +1,6 @@
 ## Color pallet
 - Teal: #00625B;
+- Teal - light: #E3FAFA;
 - White: #FFF;
 - Black: #000;
 

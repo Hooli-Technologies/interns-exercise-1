@@ -19,7 +19,7 @@
       padding: 24px 300px;
     }
 
-    nav{
+    nav {
       display: flex;
       gap: 24px;
     }
@@ -29,19 +29,77 @@
       color: #000;
     }
 
-    nav a:hover{
-      color: #00625B;
+    nav a:hover {
+      color: #00625b;
       text-decoration: underline;
     }
 
-    button {
-      background-color: #00625B;
+    header button {
+      background-color: #00625b;
       color: #fff;
-      border: none;
       border-radius: 400px;
+    }
+
+    .hero {
+      display: flex;
+    }
+
+    .hero-image {
+      background: #e3fafa;
+      flex-shrink: 0;
+      width: 40%;
+      display: flex;
+      align-items: baseline;
+    }
+
+    .hero-image img {
+      width: 80%;
+      display: block;
+      margin: auto;
+    }
+    .hero-content {
+      background: #00625b;
+      color: #fff;
+      padding: 76px 180px 48px 300px;
+    }
+
+    em {
+      font-size: 16pt;
+      margin-bottom: 0;
+
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 40pt;
+      line-height: 1.5;
+      text-transform: capitalize;
+    }
+
+    p {
+      line-height: 1.65;
+    }
+    .hero-content p {
+      font-weight: 200;
+      margin-bottom: 48px;
+    }
+    button {
       padding: 12px 24px;
+      border: none;
       cursor: pointer;
       text-transform: capitalize;
+    }
+
+    .hero-content button {
+      background: #fff;
+      color: #00625b;
+      border-radius: 8px;
+    }
+
+    .hero-content a {
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 24px;
     }
   </style>
 </head>
@@ -60,4 +118,19 @@
       <button>let's talk</button>
     </div>
   </header>
+  <div class="hero">
+    <div class="hero-content">
+      <em>Hey, I'm Abdulmujeeb 👋🏽</em>
+      <h2>Building digital products, brands & experience.</h2>
+      <p>
+        A product design and visual designer in SF. I'm specialized in UI/UX,
+        Responsive web design and visual development
+      </p>
+      <button>Hire me</button>
+      <a href="#"> Download CV </a>
+    </div>
+    <div class="hero-image">
+      <img src="./hero-1.png" alt="hero" />
+    </div>
+  </div>
 </body>
